@@ -1,0 +1,5 @@
+[console_scripts]
+image_publisher_node = vision_rpi_car.image_publisher:main
+line_follow_node = vision_rpi_car.line_follow_drive:main
+steerTwist_node = vision_rpi_car.steer_twist_sub:main
+

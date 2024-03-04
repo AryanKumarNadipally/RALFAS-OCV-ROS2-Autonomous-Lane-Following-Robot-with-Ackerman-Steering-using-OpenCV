@@ -1,0 +1,45 @@
+[8.938s] Invoking command in '/home/aryan/ros2_ws/src/vision_rpi_car': PYTHONPATH=/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/prefix_override:/home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/vision_rpi_car build --build-base /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build install --record /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/install.log --single-version-externally-managed
+[11.916s] running egg_info
+[11.921s] creating build/vision_rpi_car/vision_rpi_car.egg-info
+[11.923s] writing build/vision_rpi_car/vision_rpi_car.egg-info/PKG-INFO
+[11.925s] writing dependency_links to build/vision_rpi_car/vision_rpi_car.egg-info/dependency_links.txt
+[11.927s] writing entry points to build/vision_rpi_car/vision_rpi_car.egg-info/entry_points.txt
+[11.928s] writing requirements to build/vision_rpi_car/vision_rpi_car.egg-info/requires.txt
+[11.929s] writing top-level names to build/vision_rpi_car/vision_rpi_car.egg-info/top_level.txt
+[11.932s] writing manifest file 'build/vision_rpi_car/vision_rpi_car.egg-info/SOURCES.txt'
+[11.948s] reading manifest file 'build/vision_rpi_car/vision_rpi_car.egg-info/SOURCES.txt'
+[11.958s] writing manifest file 'build/vision_rpi_car/vision_rpi_car.egg-info/SOURCES.txt'
+[11.960s] running build
+[11.961s] running build_py
+[11.963s] creating /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build
+[11.964s] creating /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib
+[11.965s] creating /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car
+[11.966s] copying vision_rpi_car/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car
+[11.967s] copying vision_rpi_car/line_follow_drive.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car
+[11.969s] copying vision_rpi_car/steer_twist_sub.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car
+[11.970s] copying vision_rpi_car/image_publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car
+[11.972s] running install
+[11.975s] running install_lib
+[11.983s] creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car
+[11.984s] copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car
+[11.986s] copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/line_follow_drive.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car
+[11.988s] copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/steer_twist_sub.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car
+[11.989s] copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/image_publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car
+[11.996s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/__init__.py to __init__.cpython-310.pyc
+[11.999s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/line_follow_drive.py to line_follow_drive.cpython-310.pyc
+[12.007s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/steer_twist_sub.py to steer_twist_sub.cpython-310.pyc
+[12.015s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/image_publisher.py to image_publisher.cpython-310.pyc
+[12.019s] running install_data
+[12.025s] creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index
+[12.026s] creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index/resource_index
+[12.027s] creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index/resource_index/packages
+[12.028s] copying resource/vision_rpi_car -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index/resource_index/packages
+[12.030s] copying package.xml -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/vision_rpi_car
+[12.030s] running install_egg_info
+[12.046s] Copying build/vision_rpi_car/vision_rpi_car.egg-info to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car-0.0.0-py3.10.egg-info
+[12.060s] running install_scripts
+[12.254s] Installing image_publisher_node script to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/vision_rpi_car
+[12.256s] Installing line_follow_node script to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/vision_rpi_car
+[12.258s] Installing steerTwist_node script to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/vision_rpi_car
+[12.261s] writing list of installed files to '/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/install.log'
+[12.484s] Invoked command in '/home/aryan/ros2_ws/src/vision_rpi_car' returned '0': PYTHONPATH=/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/prefix_override:/home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/vision_rpi_car build --build-base /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build install --record /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/install.log --single-version-externally-managed

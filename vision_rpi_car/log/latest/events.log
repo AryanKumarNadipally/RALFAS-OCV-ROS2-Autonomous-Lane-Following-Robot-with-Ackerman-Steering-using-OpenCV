@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.001696] (vision_rpi_car) JobQueued: {'identifier': 'vision_rpi_car', 'dependencies': OrderedDict()}
+[0.002292] (vision_rpi_car) JobStarted: {'identifier': 'vision_rpi_car'}
+[0.099392] (-) TimerEvent: {}
+[0.201680] (-) TimerEvent: {}
+[0.303110] (-) TimerEvent: {}
+[0.404523] (-) TimerEvent: {}
+[0.506352] (-) TimerEvent: {}
+[0.608039] (-) TimerEvent: {}
+[0.709616] (-) TimerEvent: {}
+[0.811003] (-) TimerEvent: {}
+[0.913488] (-) TimerEvent: {}
+[1.015885] (-) TimerEvent: {}
+[1.117246] (-) TimerEvent: {}
+[1.218591] (-) TimerEvent: {}
+[1.319928] (-) TimerEvent: {}
+[1.421165] (-) TimerEvent: {}
+[1.522456] (-) TimerEvent: {}
+[1.623705] (-) TimerEvent: {}
+[1.724943] (-) TimerEvent: {}
+[1.826170] (-) TimerEvent: {}
+[1.927373] (-) TimerEvent: {}
+[2.028703] (-) TimerEvent: {}
+[2.129931] (-) TimerEvent: {}
+[2.231164] (-) TimerEvent: {}
+[2.332423] (-) TimerEvent: {}
+[2.433768] (-) TimerEvent: {}
+[2.534932] (-) TimerEvent: {}
+[2.636126] (-) TimerEvent: {}
+[2.737271] (-) TimerEvent: {}
+[2.838466] (-) TimerEvent: {}
+[2.939625] (-) TimerEvent: {}
+[3.040815] (-) TimerEvent: {}
+[3.142067] (-) TimerEvent: {}
+[3.243268] (-) TimerEvent: {}
+[3.344455] (-) TimerEvent: {}
+[3.445760] (-) TimerEvent: {}
+[3.547068] (-) TimerEvent: {}
+[3.648302] (-) TimerEvent: {}
+[3.749458] (-) TimerEvent: {}
+[3.850582] (-) TimerEvent: {}
+[3.951396] (-) TimerEvent: {}
+[4.053090] (-) TimerEvent: {}
+[4.154761] (-) TimerEvent: {}
+[4.258260] (-) TimerEvent: {}
+[4.359614] (-) TimerEvent: {}
+[4.467635] (-) TimerEvent: {}
+[4.571675] (-) TimerEvent: {}
+[4.672971] (-) TimerEvent: {}
+[4.774208] (-) TimerEvent: {}
+[4.875420] (-) TimerEvent: {}
+[4.976574] (-) TimerEvent: {}
+[5.077795] (-) TimerEvent: {}
+[5.179112] (-) TimerEvent: {}
+[5.280739] (-) TimerEvent: {}
+[5.381970] (-) TimerEvent: {}
+[5.483200] (-) TimerEvent: {}
+[5.584470] (-) TimerEvent: {}
+[5.686091] (-) TimerEvent: {}
+[5.787279] (-) TimerEvent: {}
+[5.888475] (-) TimerEvent: {}
+[5.989761] (-) TimerEvent: {}
+[6.090971] (-) TimerEvent: {}
+[6.192126] (-) TimerEvent: {}
+[6.292885] (-) TimerEvent: {}
+[6.394137] (-) TimerEvent: {}
+[6.495316] (-) TimerEvent: {}
+[6.596482] (-) TimerEvent: {}
+[6.697732] (-) TimerEvent: {}
+[6.798863] (-) TimerEvent: {}
+[6.900062] (-) TimerEvent: {}
+[7.001237] (-) TimerEvent: {}
+[7.102462] (-) TimerEvent: {}
+[7.203628] (-) TimerEvent: {}
+[7.304878] (-) TimerEvent: {}
+[7.406181] (-) TimerEvent: {}
+[7.507372] (-) TimerEvent: {}
+[7.608550] (-) TimerEvent: {}
+[7.709788] (-) TimerEvent: {}
+[7.811030] (-) TimerEvent: {}
+[7.912131] (-) TimerEvent: {}
+[8.012883] (-) TimerEvent: {}
+[8.113599] (-) TimerEvent: {}
+[8.214341] (-) TimerEvent: {}
+[8.315168] (-) TimerEvent: {}
+[8.416189] (-) TimerEvent: {}
+[8.517839] (-) TimerEvent: {}
+[8.619318] (-) TimerEvent: {}
+[8.720762] (-) TimerEvent: {}
+[8.822572] (-) TimerEvent: {}
+[8.924322] (-) TimerEvent: {}
+[8.932988] (vision_rpi_car) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/vision_rpi_car', 'build', '--build-base', '/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build', 'install', '--record', '/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/install.log', '--single-version-externally-managed'], 'cwd': '/home/aryan/ros2_ws/src/vision_rpi_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aryan', 'SSH_CLIENT': '192.168.0.27 59698 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/aryan/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/aryan/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aryan', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2107b93b-10d3-4cff-b6fd-5e7ef12158b7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/aryan/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/aryan/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aryan/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aryan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aryan/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dc887585fc.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/aryan/ros2_ws/install/vision_rpi_car:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.27 59698 192.168.0.34 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/prefix_override:/home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages:/home/aryan/ros2_ws/install/vision_rpi_car/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[9.024613] (-) TimerEvent: {}
+[9.125926] (-) TimerEvent: {}
+[9.227214] (-) TimerEvent: {}
+[9.331271] (-) TimerEvent: {}
+[9.432555] (-) TimerEvent: {}
+[9.534266] (-) TimerEvent: {}
+[9.635479] (-) TimerEvent: {}
+[9.736690] (-) TimerEvent: {}
+[9.837944] (-) TimerEvent: {}
+[9.939103] (-) TimerEvent: {}
+[10.040299] (-) TimerEvent: {}
+[10.141579] (-) TimerEvent: {}
+[10.242766] (-) TimerEvent: {}
+[10.343932] (-) TimerEvent: {}
+[10.445091] (-) TimerEvent: {}
+[10.546276] (-) TimerEvent: {}
+[10.647408] (-) TimerEvent: {}
+[10.748531] (-) TimerEvent: {}
+[10.849741] (-) TimerEvent: {}
+[10.950966] (-) TimerEvent: {}
+[11.052274] (-) TimerEvent: {}
+[11.153834] (-) TimerEvent: {}
+[11.255192] (-) TimerEvent: {}
+[11.356422] (-) TimerEvent: {}
+[11.457632] (-) TimerEvent: {}
+[11.558762] (-) TimerEvent: {}
+[11.660039] (-) TimerEvent: {}
+[11.761626] (-) TimerEvent: {}
+[11.862945] (-) TimerEvent: {}
+[11.917734] (vision_rpi_car) StdoutLine: {'line': b'running egg_info\n'}
+[11.922621] (vision_rpi_car) StdoutLine: {'line': b'creating build/vision_rpi_car/vision_rpi_car.egg-info\n'}
+[11.924513] (vision_rpi_car) StdoutLine: {'line': b'writing build/vision_rpi_car/vision_rpi_car.egg-info/PKG-INFO\n'}
+[11.926990] (vision_rpi_car) StdoutLine: {'line': b'writing dependency_links to build/vision_rpi_car/vision_rpi_car.egg-info/dependency_links.txt\n'}
+[11.928508] (vision_rpi_car) StdoutLine: {'line': b'writing entry points to build/vision_rpi_car/vision_rpi_car.egg-info/entry_points.txt\n'}
+[11.929889] (vision_rpi_car) StdoutLine: {'line': b'writing requirements to build/vision_rpi_car/vision_rpi_car.egg-info/requires.txt\n'}
+[11.931112] (vision_rpi_car) StdoutLine: {'line': b'writing top-level names to build/vision_rpi_car/vision_rpi_car.egg-info/top_level.txt\n'}
+[11.932944] (vision_rpi_car) StdoutLine: {'line': b"writing manifest file 'build/vision_rpi_car/vision_rpi_car.egg-info/SOURCES.txt'\n"}
+[11.949323] (vision_rpi_car) StdoutLine: {'line': b"reading manifest file 'build/vision_rpi_car/vision_rpi_car.egg-info/SOURCES.txt'\n"}
+[11.959351] (vision_rpi_car) StdoutLine: {'line': b"writing manifest file 'build/vision_rpi_car/vision_rpi_car.egg-info/SOURCES.txt'\n"}
+[11.960887] (vision_rpi_car) StdoutLine: {'line': b'running build\n'}
+[11.962174] (vision_rpi_car) StdoutLine: {'line': b'running build_py\n'}
+[11.963275] (-) TimerEvent: {}
+[11.964171] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build\n'}
+[11.965927] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib\n'}
+[11.966858] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car\n'}
+[11.968047] (vision_rpi_car) StdoutLine: {'line': b'copying vision_rpi_car/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car\n'}
+[11.968931] (vision_rpi_car) StdoutLine: {'line': b'copying vision_rpi_car/line_follow_drive.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car\n'}
+[11.970139] (vision_rpi_car) StdoutLine: {'line': b'copying vision_rpi_car/steer_twist_sub.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car\n'}
+[11.971565] (vision_rpi_car) StdoutLine: {'line': b'copying vision_rpi_car/image_publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car\n'}
+[11.973814] (vision_rpi_car) StdoutLine: {'line': b'running install\n'}
+[11.976938] (vision_rpi_car) StdoutLine: {'line': b'running install_lib\n'}
+[11.984124] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car\n'}
+[11.985443] (vision_rpi_car) StdoutLine: {'line': b'copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car\n'}
+[11.987243] (vision_rpi_car) StdoutLine: {'line': b'copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/line_follow_drive.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car\n'}
+[11.989182] (vision_rpi_car) StdoutLine: {'line': b'copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/steer_twist_sub.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car\n'}
+[11.991163] (vision_rpi_car) StdoutLine: {'line': b'copying /home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/build/lib/vision_rpi_car/image_publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car\n'}
+[11.997081] (vision_rpi_car) StdoutLine: {'line': b'byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/__init__.py to __init__.cpython-310.pyc\n'}
+[12.000183] (vision_rpi_car) StdoutLine: {'line': b'byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/line_follow_drive.py to line_follow_drive.cpython-310.pyc\n'}
+[12.008357] (vision_rpi_car) StdoutLine: {'line': b'byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/steer_twist_sub.py to steer_twist_sub.cpython-310.pyc\n'}
+[12.016401] (vision_rpi_car) StdoutLine: {'line': b'byte-compiling /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car/image_publisher.py to image_publisher.cpython-310.pyc\n'}
+[12.020846] (vision_rpi_car) StdoutLine: {'line': b'running install_data\n'}
+[12.026270] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index\n'}
+[12.027762] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index/resource_index\n'}
+[12.028716] (vision_rpi_car) StdoutLine: {'line': b'creating /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index/resource_index/packages\n'}
+[12.029952] (vision_rpi_car) StdoutLine: {'line': b'copying resource/vision_rpi_car -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/ament_index/resource_index/packages\n'}
+[12.031081] (vision_rpi_car) StdoutLine: {'line': b'copying package.xml -> /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/share/vision_rpi_car\n'}
+[12.032123] (vision_rpi_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.047648] (vision_rpi_car) StdoutLine: {'line': b'Copying build/vision_rpi_car/vision_rpi_car.egg-info to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/python3.10/site-packages/vision_rpi_car-0.0.0-py3.10.egg-info\n'}
+[12.061993] (vision_rpi_car) StdoutLine: {'line': b'running install_scripts\n'}
+[12.063475] (-) TimerEvent: {}
+[12.164721] (-) TimerEvent: {}
+[12.255588] (vision_rpi_car) StdoutLine: {'line': b'Installing image_publisher_node script to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/vision_rpi_car\n'}
+[12.257750] (vision_rpi_car) StdoutLine: {'line': b'Installing line_follow_node script to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/vision_rpi_car\n'}
+[12.259519] (vision_rpi_car) StdoutLine: {'line': b'Installing steerTwist_node script to /home/aryan/ros2_ws/src/vision_rpi_car/install/vision_rpi_car/lib/vision_rpi_car\n'}
+[12.262911] (vision_rpi_car) StdoutLine: {'line': b"writing list of installed files to '/home/aryan/ros2_ws/src/vision_rpi_car/build/vision_rpi_car/install.log'\n"}
+[12.265153] (-) TimerEvent: {}
+[12.367276] (-) TimerEvent: {}
+[12.469043] (-) TimerEvent: {}
+[12.484375] (vision_rpi_car) CommandEnded: {'returncode': 0}
+[12.569149] (-) TimerEvent: {}
+[12.670079] (-) TimerEvent: {}
+[12.771624] (-) TimerEvent: {}
+[12.873565] (-) TimerEvent: {}
+[12.977294] (-) TimerEvent: {}
+[12.983387] (vision_rpi_car) JobEnded: {'identifier': 'vision_rpi_car', 'rc': 0}
+[12.989641] (-) EventReactorShutdown: {}

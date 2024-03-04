@@ -1,0 +1,43 @@
+running egg_info
+creating build/vision_rpi_bot/vision_rpi_bot.egg-info
+writing build/vision_rpi_bot/vision_rpi_bot.egg-info/PKG-INFO
+writing dependency_links to build/vision_rpi_bot/vision_rpi_bot.egg-info/dependency_links.txt
+writing entry points to build/vision_rpi_bot/vision_rpi_bot.egg-info/entry_points.txt
+writing requirements to build/vision_rpi_bot/vision_rpi_bot.egg-info/requires.txt
+writing top-level names to build/vision_rpi_bot/vision_rpi_bot.egg-info/top_level.txt
+writing manifest file 'build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+reading manifest file 'build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+writing manifest file 'build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+copying vision_rpi_bot/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+copying vision_rpi_bot/publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+copying vision_rpi_bot/line_following_real.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+copying vision_rpi_bot/subscriber.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+running install
+running install_lib
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/line_following_real.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/subscriber.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/line_following_real.py to line_following_real.cpython-310.pyc
+byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index/resource_index
+creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index/resource_index/packages
+copying resource/vision_rpi_bot -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index/resource_index/packages
+copying package.xml -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/vision_rpi_bot
+running install_egg_info
+Copying build/vision_rpi_bot/vision_rpi_bot.egg-info to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing line_follower_node script to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/vision_rpi_bot
+Installing publisher_node script to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/vision_rpi_bot
+Installing subscriber_node script to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/vision_rpi_bot
+writing list of installed files to '/home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/install.log'

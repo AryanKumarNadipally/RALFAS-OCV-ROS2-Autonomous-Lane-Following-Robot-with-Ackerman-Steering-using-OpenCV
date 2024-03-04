@@ -1,0 +1,45 @@
+[0.510s] Invoking command in '/home/aryan/ros2_ws/src/vision_rpi_bot': PYTHONPATH=/home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/prefix_override:/home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/vision_rpi_bot build --build-base /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build install --record /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/install.log --single-version-externally-managed
+[0.672s] running egg_info
+[0.672s] creating build/vision_rpi_bot/vision_rpi_bot.egg-info
+[0.672s] writing build/vision_rpi_bot/vision_rpi_bot.egg-info/PKG-INFO
+[0.673s] writing dependency_links to build/vision_rpi_bot/vision_rpi_bot.egg-info/dependency_links.txt
+[0.673s] writing entry points to build/vision_rpi_bot/vision_rpi_bot.egg-info/entry_points.txt
+[0.673s] writing requirements to build/vision_rpi_bot/vision_rpi_bot.egg-info/requires.txt
+[0.673s] writing top-level names to build/vision_rpi_bot/vision_rpi_bot.egg-info/top_level.txt
+[0.673s] writing manifest file 'build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[0.674s] reading manifest file 'build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[0.674s] writing manifest file 'build/vision_rpi_bot/vision_rpi_bot.egg-info/SOURCES.txt'
+[0.674s] running build
+[0.674s] running build_py
+[0.674s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build
+[0.675s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib
+[0.675s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.675s] copying vision_rpi_bot/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.675s] copying vision_rpi_bot/publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.675s] copying vision_rpi_bot/line_following_real.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.675s] copying vision_rpi_bot/subscriber.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot
+[0.675s] running install
+[0.675s] running install_lib
+[0.675s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.675s] copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/__init__.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.676s] copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/publisher.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.676s] copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/line_following_real.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.676s] copying /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build/lib/vision_rpi_bot/subscriber.py -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot
+[0.676s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/__init__.py to __init__.cpython-310.pyc
+[0.676s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/publisher.py to publisher.cpython-310.pyc
+[0.676s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/line_following_real.py to line_following_real.cpython-310.pyc
+[0.677s] byte-compiling /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot/subscriber.py to subscriber.cpython-310.pyc
+[0.677s] running install_data
+[0.677s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index
+[0.677s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index/resource_index
+[0.677s] creating /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index/resource_index/packages
+[0.677s] copying resource/vision_rpi_bot -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/ament_index/resource_index/packages
+[0.678s] copying package.xml -> /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/share/vision_rpi_bot
+[0.678s] running install_egg_info
+[0.678s] Copying build/vision_rpi_bot/vision_rpi_bot.egg-info to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages/vision_rpi_bot-0.0.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.692s] Installing line_follower_node script to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.692s] Installing publisher_node script to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.692s] Installing subscriber_node script to /home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/vision_rpi_bot
+[0.692s] writing list of installed files to '/home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/install.log'
+[0.708s] Invoked command in '/home/aryan/ros2_ws/src/vision_rpi_bot' returned '0': PYTHONPATH=/home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/prefix_override:/home/aryan/ros2_ws/src/vision_rpi_bot/install/vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/vision_rpi_bot build --build-base /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/build install --record /home/aryan/ros2_ws/src/vision_rpi_bot/build/vision_rpi_bot/install.log --single-version-externally-managed

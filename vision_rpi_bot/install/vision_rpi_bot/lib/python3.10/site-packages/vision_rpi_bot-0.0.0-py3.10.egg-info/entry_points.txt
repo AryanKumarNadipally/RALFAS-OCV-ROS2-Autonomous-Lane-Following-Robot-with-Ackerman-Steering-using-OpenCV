@@ -1,0 +1,5 @@
+[console_scripts]
+line_follower_node = vision_rpi_bot.line_following_real:main
+publisher_node = vision_rpi_bot.publisher:main
+subscriber_node = vision_rpi_bot.subscriber:main
+
